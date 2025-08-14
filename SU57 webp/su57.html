@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sukhoi Su-57 Felon | Apex Predator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #111827; /* Dark Gray */
+            color: #E5E7EB; /* Light Gray */
+        }
+        .hero-section {
+            background: linear-gradient(rgba(17, 24, 39, 0.8), rgba(17, 24, 39, 1)), url('images/1.jpg') no-repeat center center;
+            background-size: cover;
+        }
+        .section-title {
+            border-left: 4px solid #3B82F6; /* Blue-500 */
+            padding-left: 1rem;
+        }
+        .stat-card {
+            background-color: #1F2937; /* Gray-800 */
+            border: 1px solid #374151; /* Gray-700 */
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .stat-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(59, 130, 246, 0.2), 0 4px 6px -2px rgba(59, 130, 246, 0.1);
+        }
+        .gallery-img {
+            transition: transform 0.3s ease, filter 0.3s ease;
+        }
+        .gallery-img:hover {
+            transform: scale(1.05);
+            filter: brightness(1.1);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="bg-gray-900/50 backdrop-blur-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center">
+                    <span class="font-bold text-2xl text-white">Su-57</span> <span class="text-blue-400 ml-2 font-semibold">FELON</span>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                        <a href="#overview" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Overview</a>
+                        <a href="#features" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Features</a>
+                        <a href="#specs" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Specifications</a>
+                        <a href="#gallery" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Gallery</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section">
+        <div class="max-w-7xl mx-auto py-32 px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-4xl md:text-6xl font-extrabold text-white tracking-tight">
+                Sukhoi Su-57 <span class="text-blue-400">Felon</span>
+            </h1>
+            <p class="mt-4 max-w-2xl mx-auto text-lg md:text-xl text-gray-300">
+                Russia's premier fifth-generation stealth multirole fighter, engineered for air superiority and precision strike in the modern battlespace.
+            </p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+
+        <!-- Overview Section -->
+        <section id="overview" class="mb-20 scroll-mt-20">
+            <h2 class="text-3xl font-bold text-white section-title mb-6">Redefining Air Dominance</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                <div>
+                    <p class="text-lg text-gray-300 mb-4">
+                        The Sukhoi Su-57 (NATO reporting name: "Felon") is the culmination of decades of Russian aerospace innovation. Designed by the Sukhoi Design Bureau, it represents a leap into the fifth generation, combining stealth, supermanoeuvrability, supercruise, integrated avionics, and a large internal payload capacity.
+                    </p>
+                    <p class="text-gray-400">
+                        Intended to succeed the venerable Su-27 and MiG-29 families, the Su-57 is a versatile platform capable of engaging air, ground, and maritime targets. Its design philosophy balances low observability with exceptional agility, making it a formidable opponent in any combat scenario. From deep-strike missions to defensive counter-air operations, the Felon is built to secure the skies.
+                    </p>
+                </div>
+                <div>
+                    <img src="images/2.jpg" alt="Su-57 in flight" class="rounded-lg shadow-2xl w-full h-auto object-cover">
+                </div>
+            </div>
+        </section>
+
+        <!-- Key Features Section -->
+        <section id="features" class="mb-20 scroll-mt-20">
+            <h2 class="text-3xl font-bold text-white section-title mb-8">Core Capabilities</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Feature Card 1 -->
+                <div class="stat-card p-6 rounded-lg">
+                    <h3 class="text-xl font-semibold text-white mb-2">Stealth & Aerodynamics</h3>
+                    <p class="text-gray-400">The Su-57 features a carefully shaped airframe and the use of composite materials to reduce its radar cross-section (RCS), particularly from the frontal aspect. Internal weapons bays maintain its stealth profile while carrying a formidable arsenal.</p>
+                </div>
+                <!-- Feature Card 2 -->
+                <div class="stat-card p-6 rounded-lg">
+                    <h3 class="text-xl font-semibold text-white mb-2">Supermanoeuvrability</h3>
+                    <p class="text-gray-400">Equipped with 3D thrust-vectoring nozzles, the Su-57 boasts extreme agility. It can perform post-stall manoeuvres like the Pugachev's Cobra and the flat spin, giving it a significant edge in within-visual-range combat.</p>
+                </div>
+                <!-- Feature Card 3 -->
+                <div class="stat-card p-6 rounded-lg">
+                    <h3 class="text-xl font-semibold text-white mb-2">Advanced Avionics</h3>
+                    <p class="text-gray-400">The core of the Su-57 is its integrated avionics suite. The Sh-121 multifunctional integrated radio electronic system (MIRES) includes multiple AESA radar arrays, providing 360-degree situational awareness and advanced electronic warfare capabilities.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Specifications Section -->
+        <section id="specs" class="mb-20 scroll-mt-20">
+            <h2 class="text-3xl font-bold text-white section-title mb-8">Technical Specifications</h2>
+             <div class="bg-gray-800 rounded-lg p-8 border border-gray-700 shadow-xl">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div>
+                        <h4 class="font-semibold text-blue-400 mb-2">Performance</h4>
+                        <ul class="list-disc list-inside text-gray-300 space-y-1">
+                            <li><strong>Maximum Speed:</strong> Mach 2+ (2,140 km/h)</li>
+                            <li><strong>Supercruise:</strong> Mach 1.6</li>
+                            <li><strong>Range:</strong> 3,500 km (subsonic)</li>
+                            <li><strong>Service Ceiling:</strong> 20,000 m (66,000 ft)</li>
+                            <li><strong>G-limit:</strong> +9 g</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="font-semibold text-blue-400 mb-2">Dimensions</h4>
+                        <ul class="list-disc list-inside text-gray-300 space-y-1">
+                            <li><strong>Length:</strong> 20.1 m</li>
+                            <li><strong>Wingspan:</strong> 14.1 m</li>
+                            <li><strong>Height:</strong> 4.6 m</li>
+                            <li><strong>Wing Area:</strong> 78.8 m²</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="font-semibold text-blue-400 mb-2">Armament</h4>
+                        <ul class="list-disc list-inside text-gray-300 space-y-1">
+                            <li><strong>Guns:</strong> 1× 30 mm GSh-30-1 autocannon</li>
+                            <li><strong>Internal Bays:</strong> 4 (for missiles/bombs)</li>
+                            <li><strong>External Hardpoints:</strong> 6</li>
+                            <li><strong>Payload:</strong> Air-to-air, air-to-surface, anti-ship, and anti-radiation missiles.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="scroll-mt-20">
+            <h2 class="text-3xl font-bold text-white section-title mb-8">Image Gallery</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div class="overflow-hidden rounded-lg shadow-lg">
+                    <img src="images/1.jpg" alt="Su-57 front view" class="w-full h-full object-cover gallery-img">
+                </div>
+                <div class="overflow-hidden rounded-lg shadow-lg">
+                    <img src="images/3.jpg" alt="Su-57 from below" class="w-full h-full object-cover gallery-img">
+                </div>
+                <div class="overflow-hidden rounded-lg shadow-lg">
+                    <img src="images/4.jpg" alt="Su-57 cockpit view" class="w-full h-full object-cover gallery-img">
+                </div>
+                 <div class="overflow-hidden rounded-lg shadow-lg">
+                    <img src="images/2.jpg" alt="Su-57 side profile" class="w-full h-full object-cover gallery-img">
+                </div>
+                 <div class="overflow-hidden rounded-lg shadow-lg">
+                    <img src="images/5.jpg" alt="Su-57 banking" class="w-full h-full object-cover gallery-img">
+                </div>
+                 <div class="overflow-hidden rounded-lg shadow-lg">
+                    <img src="images/6.jpg" alt="Su-57 on the tarmac" class="w-full h-full object-cover gallery-img">
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 mt-20">
+        <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8 text-center text-gray-400">
+            <p>&copy; 2024 Sukhoi Su-57 Felon Showcase. All information is for demonstrative purposes.</p>
+            <p class="text-sm mt-1">This is a non-commercial, fan-made informational website.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
